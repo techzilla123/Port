@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Monsur Techzilla Raji's Portfolio</title>
+        <!--box icons-->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <!--custom css-->
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/650846a70f2b18434fd927ea/1hak580o0';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->
+        <header class="header">
+<a href="#" class="logo">Portfolio</a>
+<i class='bx bx-menu' id="menu-icon"></i>
+<nav class="navbar">
+    <a href="#home" class="active">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
+
+</nav>
+</header>
+<!--home section design-->
+<section class="home" id="home">
+    <div class="home-content">
+        <h3>Hello, It's Me</h3>
+        <h1>Monsur Raji</h1>
+        <h3>I'm a <span class="multiple-text"></span></h3>
+        <p>
+            I'm a dedicated frontend developer with expertise in crafting user-friendly websites and web applications. Proficient in HTML, CSS, JavaScript, React, and Chakra UI, I create seamless, responsive interfaces that blend form and function. Staying current with web trends and technologies, I thrive on solving design challenges and delivering exceptional user-centric solutions. My mission is to turn creative ideas into compelling online experiences.
+        
+        </p>
+        <div class="social-media">
+            <a href="#"><i class='bx bxl-facebook-circle' ></i></a>
+            <a href="#"><i class='bx bxl-twitter' ></i></a>
+            <a href="https://github.com/techzilla123"><i class='bx bxl-github' ></i></a>
+            <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+            <a href="https://www.linkedin.com/in/techzilla001/"><i class='bx bxl-linkedin' ></i></a>
+        </div>
+        <a href="TechzillaA(2)(2).pdf" class="btn">Download CV</a>
+    </div>
+    <div class="home-img">
+        <img src="images/home.png" alt="">
+    </div>
+</section>
+<!--about section-->
+ <section class="about" id="about">
+    <div class="about-img">
+        <img src="images/about.png" alt=" ">
+    </div>
+    <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Frontend Developer!</h3>
+        <p>
+            I'm a passionate frontend developer with a keen eye for designing user-friendly websites and web applications.
+            My expertise encompasses HTML, CSS, JavaScript, React, and Chakra UI, enabling me to craft seamless, responsive
+            interfaces that merge aesthetics with functionality. My commitment to staying updated with the latest web trends
+            and technologies drives me to tackle intricate design challenges, delivering intuitive, user-centric solutions.
+            I take pride in transforming creative ideas into captivating online experiences, making the digital world a better
+            place, one website at a time.
+        </p>
+        <div class="hidden" id="moreDetails">
+            <p>
+                In addition to my frontend skills, I have a background in UX/UI design and a passion for creating accessible
+                and inclusive digital experiences. I thrive in collaborative team environments and have a track record of
+                successfully delivering projects on time and exceeding client expectations.
+            </p>
+        </div>
+        <button class="btn" id="readMoreButton" onclick="toggleDetails()">Read More</button>
+    </div>
+    <script>
+        // JavaScript function to toggle the visibility of the hidden section
+        function toggleDetails() {
+            var moreDetails = document.getElementById("moreDetails");
+            moreDetails.classList.toggle("hidden");
+            var readMoreButton = document.getElementById("readMoreButton");
+            if (moreDetails.classList.contains("hidden")) {
+                readMoreButton.textContent = "Read More";
+            } else {
+                readMoreButton.textContent = "Read Less";
+            }
+        }
+    </script>
+    </section>
+    <!--service section-->
+   <section class="services" id="services">
+    <h2 class="heading">
+        My <span>Services</span>
+    </h2>
+    <div class="services-container">
+        <div class="services-box">
+            <i class="bx bx-code-alt"></i>
+            <h3>Web Development</h3>
+            <p>I specialize in creating user-friendly websites and web applications. My expertise includes HTML, CSS, JavaScript, React, and Chakra UI for responsive, cutting-edge designs. I am dedicated to delivering user-centric solutions, transforming ideas into captivating online experiences. Ready to elevate your digital presence? Let's collaborate!
+
+            
+        </div>
+
+        <div class="services-box">
+            <i class="bx bxs-paint"></i>
+            <h3>Graphic Design</h3>
+            <p>Elevate your brand with my graphic design expertise. I specialize in creating captivating visuals that deeply engage your audience and elevate your brand identity. My designs are not only visually striking but also meticulously crafted to effectively convey your unique messagewe ensure your brand stands out in the competitive landscape</p>
+            </p>
+                
+        </div>
+
+        <div class="services-box">
+            <i class="bx bx-bar-chart-alt"></i>
+            <h3>Digital Marketing</h3>
+            <p>Boost your brand with My expertise in digital marketing. I specialize in developing compelling campaigns that deeply connect with your target audience and enhance your online brand presence. My strategies are not only highly effective but also meticulously customized to convey your unique message, ensuring your brand shines in the digital realm</p>
+                 
+        </div>
+    </div>
+   </section>
+   <!--Portfolio section-->
+   <section class="portfolio" id="portfolio">
+    <h2 class="heading">Latest <span>Project</span></h2>
+
+    <div class="portfolio-container">
+        <div class="portfolio-box">
+            <img src="images/Screenshot(15).png" alt="">
+            <div class="portfolio-layer">
+                <h4>Web Development</h4>
+                <p>Monmouth Cards: Your destination for high-quality sports cards.</p>
+                <a href="https://monmouthcards.vercel.app/"><i class='bx bx-link'></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="images/Screenshot(19).png" alt="">
+            <div class="portfolio-layer">
+                <h4>Web Development</h4>
+                <p>YCT Bank: Your trusted partner for accessible loans and financial support</p>
+                <a href="https://yct.vercel.app/"><i class='bx bx-link'></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="images/Screenshot(13).png" alt="">
+            <div class="portfolio-layer">
+                <h4>Web Development</h4>
+                <p>Morenikeji Store: Your Destination for Quality Fashion and Accessories</p>
+                <a href="https://morenikeji-store.netlify.app/"><i class='bx bx-link'></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="images/Screenshot(65).png" alt="">
+            <div class="portfolio-layer">
+                <h4>Web Development</h4>
+                <p>Unleash your potential: Memorize the Holy Qur'an
+                    in 7 months!</p>
+                <a href="https://al-quranapp.vercel.app/"><i class='bx bx-link'></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+<!--contact section-->
+ <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me!</span></h2>
+    <form action="https://api.web3forms.com/submit" method="POST">
+        
+        <div class="input-box">
+            <input type="hidden" name="access_key" value="afc521a9-f169-4699-a9cc-98d5fe95ba89">
+            <input type="text" name="name" required id="name" placeholder="Full Name">
+            <input type="email" name="email" required id="email" placeholder="Email Address">
+        </div>
+        <div class="input-box">
+            <input type="number"name="mobile" required id="number" placeholder="Mobile number">
+            <input type="text" name="subject" required id="subject" placeholder="Email Subject">
+        </div>
+        <textarea name="message" id="" cols="30" required rows="10" id="message" placeholder="Your Message"></textarea>
+        <input type="submit" value="Send" class="btn">
+    </form>
+ </section>
+ <script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
+ 
+ <!--footer design-->
+ <footer class="footer">
+ <div class="footer-text">
+    <P> Copyright &copy; 2023 by Raji Monsur | All Rights Reserved. </P>
+ </div>
+ <div class="footer-iconTop">
+    <a href="#home"><i class='bx bx-up-arrow-circle' ></i></i></a>
+ </div>
+</footer>
+  <!--scroll reveal-->
+  <!--type js-->
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  
+        <script src="js/script.js">
+            
+        </script>
+    </body>
+</html>
+</html>
